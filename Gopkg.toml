@@ -26,8 +26,11 @@
 
 [[constraint]]
   name = "github.com/hashicorp/terraform"
-  version = "=0.11.11"
+  version = "=0.12.0"
 
+[[override]]
+  name = "github.com/hashicorp/hcl2"
+  version = "=v0.0.0-20190515223218-4b22149b7cef"
 
 [prune]
   go-tests = true
